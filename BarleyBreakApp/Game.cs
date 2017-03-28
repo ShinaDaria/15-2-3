@@ -89,26 +89,11 @@ namespace BarleyBreakApp
             _arr = new int[n, n];
             _n = n;
 
-            //для проверки
-            //int index = 0;
+            
 
-            //for (int i = 0; i < _n; i++)
-            //{
-            //    for (int j = 0; j < _n; j++)
-            //    {
-            //        _arr[i, j] = index;
-            //        index++;
-            //    }
-            //}
+            List<int> list = new List<int>(); 
 
-            //_arr[0, 1] = 0;
-            //_arr[0, 0] = 1;
-
-            //return;
-
-            List<int> list = new List<int>(); //вспомогательная коллекция
-
-            //заполняем рандомно игровое поле
+            
             Random rand = new Random();
 
             for (int i = 0; i < n; i++)
